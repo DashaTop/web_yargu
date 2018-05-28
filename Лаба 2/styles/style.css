@@ -1,0 +1,124 @@
+body { 
+margin: 10px;
+background: url('../images/b2.jpg') 50% 50% / cover;
+} 
+
+a,
+	a:visited, 
+	a:focus, 
+	a:active, 
+	a:hover { font-family: Monotype Corsiva;
+			font-size: 21px;
+			text-decoration: none; 
+			color: #333; 
+			} 
+a:hover { 
+	color: #5f9a96; 
+}
+
+
+
+ul.menu {
+	padding-left: 10px; 
+	width:80px;
+    display: inline;
+} 
+ul.menu > li { 
+	display: inline-block; 
+	background: #FDDDE6;  
+	padding: 0;
+    margin: 5px;
+    float: left;
+} 
+ul.menu > li > a { 
+	padding: 10px; 
+	display: inline-block;
+}
+
+div.head {
+    background: rgba(253,221,230, 0.846);
+    margin: 10px;
+    display: flex;
+}
+
+div.menu{
+    display: inline-block;
+    width: 35%;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 0.5%;
+}
+
+.citatka {
+    width: 35%;
+    height: content-box;
+    display: inline-block;
+    font-family: Monotype Corsiva;
+    margin-top: 0px;
+    margin-left: auto;
+    font-size: 15pt;
+}
+
+.citata {
+    height: content-box;
+    display: block;
+    font-family: Monotype Corsiva;
+    font-size: 15pt;
+	margin: 5px;
+	margin-top: 57px;
+	width: auto;
+}
+
+.content {
+	background: rgba(253,221,230, 0.846);
+    margin: 10px;
+	display: flex;
+}
+
+@media (max-width: 799px) {
+	.content {
+		display: block;
+	}
+}
+
+h1 {
+	text-align: center;
+	background: rgba(253,221,230, 0.846);
+	margin: 10px;
+	font-family: Monotype Corsiva;
+	font-size: 51pt;
+}
+
+.annotacia{
+	margin: 8px;
+}
+
+.annotacia p{
+	font-family: "Comic Sans MS";
+}
+
+.opisanie{
+	margin: 8px;
+}
+
+.opisanie p{
+	font-family: "Comic Sans MS";
+}
+
+.otziv{
+	display: block;
+	float: none;
+	text-align: center;
+}
+
+.shtuchka{
+    height: 70px;
+    width: 40%
+}
+
+img{
+	float: right;
+	padding: 10px;
+	height: 518px;
+}
+

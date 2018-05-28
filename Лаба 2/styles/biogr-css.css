@@ -1,0 +1,82 @@
+body { 
+margin: 10px;
+background: url('../images/b2.jpg') 50% 50% / cover;
+} 
+a, 
+	a:visited, 
+	a:focus, 
+	a:active, 
+	a:hover { font-family: Monotype Corsiva;
+			font-size: 21px;
+			text-decoration: none; 
+			color: #333; 
+			} 
+a:hover { 
+	color: #5f9a96; 
+}
+@media (max-width: 1200px) and (min-width: 800px) {
+    .column {
+        width: 33%;
+    }
+}
+@media (max-width: 799px) {
+    .column {
+        width: 50%;
+    }
+}
+
+
+ul.menu {
+	padding-left: 10px; 
+	width:80px;
+    display: inline;
+} 
+ul.menu > li { 
+	display: inline-block; 
+	background: #FDDDE6;  
+	padding: 0;
+    margin: 5px;
+    float: left;
+} 
+ul.menu > li > a { 
+	padding: 10px; 
+	display: inline-block;
+}
+
+div.head {
+    background: rgba(253,221,230, 0.846);
+    margin: 10px;
+    display: flex;
+}
+
+div.menu{
+    display: inline-block;
+    width: 35%;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 0.5%;
+}
+
+
+
+.content {
+	background: rgba(253,221,230, 0.846);
+    margin: 10px;
+}
+.text{
+	margin: 10px;
+}
+
+.item {
+	margin: 10px;
+}
+h1 {
+	text-align: center;
+	margin: 10px;
+	font-family: Monotype Corsiva;
+	font-size: 51pt;
+}
+
+img{
+	padding: 10px;
+}

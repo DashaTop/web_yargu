@@ -1,0 +1,108 @@
+body { 
+margin: 10px;
+background: url('../images/b2.jpg') 50% 50% / cover;
+} 
+.column { 
+position: relative;
+float: left; 
+width: 25%; 
+} 
+.column > div:hover { 
+box-shadow: 0 0 3px #666, 0 0 5px #ccc
+} 
+.column > div {
+background: rgba(253,221,230, 0.37);		
+margin: 10px; 
+} 
+.column img { 
+width: 100%; 
+height: 200px; 
+object-fit: contain; 
+object-position: 50% 100%; 
+display: block; 
+} 
+
+
+.text > div { 
+font-family: mistral;
+font-size: 35px;
+height: 76px; 
+overflow: hidden; 
+} 
+.text { 
+	
+	background: rgba(253,221,230, 0.37);	 
+	color: #333; 
+	border-top: 0; 
+	padding: 10px; 
+	text-align: center; 
+} 
+a, 
+	a:visited, 
+	a:focus, 
+	a:active, 
+	a:hover { font-family: Monotype Corsiva;
+			font-size: 21px;
+			text-decoration: none; 
+			color: #333; 
+			} 
+a:hover { 
+	color: #6a95b7; 
+}
+@media (max-width: 1200px) and (min-width: 800px) {
+    .column {
+        width: 33%;
+    }
+}
+@media (max-width: 799px) {
+    .column {
+        width: 50%;
+    }
+}
+
+
+ul.menu {
+	padding-left: 10px; 
+	width:80px;
+    display: inline;
+} 
+ul.menu > li { 
+	display: inline-block; 
+	background: #FDDDE6;  
+	padding: 0;
+    margin: 5px;
+    float: left;
+} 
+ul.menu > li > a { 
+	padding: 10px; 
+	display: inline-block;
+}
+
+div.head {
+    background: rgba(253,221,230, 0.846);
+    margin: 10px;
+    display: flex;
+}
+
+div.menu{
+    display: inline-block;
+    width: 35%;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 0.5%;
+}
+
+.citatka {
+    width: 35%;
+    height: content-box;
+    display: inline-block;
+    font-family: Monotype Corsiva;
+    margin-top: 0px;
+    margin-left: auto;
+    font-size: 15pt;
+}
+
+.content{
+    position: inherit;
+    height: inherit;
+}
